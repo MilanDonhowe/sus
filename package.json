@@ -1,0 +1,24 @@
+{
+  "name": "sus",
+  "version": "1.0.0",
+  "description": "specific url shortener",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MilanDonhowe/sus.git"
+  },
+  "author": "Milan Donhowe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MilanDonhowe/sus/issues"
+  },
+  "homepage": "https://github.com/MilanDonhowe/sus#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0"
+  }
+}
