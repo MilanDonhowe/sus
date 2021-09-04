@@ -3,5 +3,4 @@ FROM node:14
 WORKDIR /sus
 COPY package*.json ./
 RUN npm install
-COPY ../* ./
-RUN cd test
+COPY ./ .
